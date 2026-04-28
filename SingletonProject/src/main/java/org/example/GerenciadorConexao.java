@@ -4,8 +4,7 @@ import java.sql.Connection; // Simulação de uma classe de conexão real
 
 public class GerenciadorConexao {
 
-    // Adicionamos 'volatile' para garantir que a instância seja lida
-    // corretamente entre diferentes threads, como discutimos.
+    // Adicionamos 'volatile' para garantir que a instância seja lido corretamente entre diferentes threads.
     private static volatile GerenciadorConexao instance;
     private String statusConexao;
 
